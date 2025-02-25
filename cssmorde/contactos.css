@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------formulario---------*/
+    .section-div{
+        display: flex;
+        margin: 2% 2% 0 2%;;
+    }
+    .divH1{
+        border: none;
+    }
+    h2{
+        font-size: 30px;
+        font-family: serif;
+        color: #72BAA9;
+        width: 25%;
+    }
+    .divH1 p{
+        width: 30%;
+        color: #D5E7B5;
+        font-size: 25px;
+    }
+    .divContenedor{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        width: 100%; 
+    }
+    .formDiv{
+        display: flex;
+        height: 100%;
+        width: 50%;
+        flex-direction: column;
+        font-size: 25px;
+        font-family: serif;
+        border-color: #72BAA9;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    fieldset{ 
+        display: flex;
+        flex-direction: column;
+        height: 95%;
+        border-color: #72BAA9;
+        border-radius: 5px;
+    }
+    fieldset label{
+        margin-left: 10px;
+        color: #72BAA9;
+    }
+    input[type=text]{
+        background-color: #474E93;
+        color: #D5E7B5;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0 0 10px;
+        border: none;
+        border-bottom: 3px solid #72BAA9;
+        border-bottom-right-radius:5px ;
+        border-bottom-left-radius: 5px;
+    }
+    input[type=number]{
+        background-color: #474E93;
+        color: #D5E7B5;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0 0 10px;
+        border: none;
+        border-bottom: 3px solid #72BAA9;
+        border-bottom-right-radius:5px ;
+        border-bottom-left-radius: 5px;
+    }
+    input[type=mail]{
+        background-color: #474E93;
+        color: #D5E7B5;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0 0 10px;
+        border: none;
+        border-bottom: 3px solid #72BAA9;
+        border-bottom-right-radius:5px ;
+        border-bottom-left-radius: 5px;
+    }
+    .labelMensaje{
+        margin-top: 5px;
+        font-size: 25px;
+        font-family: serif;
+    }
+    textarea{
+        height: 200px;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: serif solid;
+        font-size: 25px;
+        background-color: #D5E7B5;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+    }
+    .botonSubmit{
+        background-color: #72BAA9;
+        width: 90%;
+        margin: 5px 0 5px 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        color: #1e302c;
+        font-size: 20px;
+        text-align: center;
+    }
+    /*------mapa-------*/
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 100%;
+        margin-left: 1%;
+    }
+    .divLabelMap{
+        display: flex;
+        font-size: 30px;
+        color: #72BAA9;
+        text-align: center;
+        height: 10%;
+        width: 100%; 
+    }
+    .divIframe{
+        height: 95%;
+        width: 100%;
+    }
+    .iframe{
+        width: 100%;
+    }

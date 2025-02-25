@@ -1,0 +1,44 @@
+.divProducto{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: 3%;
+}
+.indiceProducto{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 2%;
+}
+.producto{
+    border: 3px #72BAA9 solid;
+    height: 40%;
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 40px;
+    color: #D5E7B5;   
+}
+.divPablo{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 70%; 
+    border: 3px #72BAA9 solid;
+    justify-content: space-around;
+    margin-left: 0.5%;
+    gap: 20px 30px;
+}
+div .item{
+    display: flex;
+    border:  3px #72BAA9 solid;
+    height: 35%;
+    width: 30%; 
+    margin-top: 2%;
+}
+.item img{
+    width: 100%;
+    object-fit: cover;
+}
+footer{
+    margin-top: 5%;
+}
