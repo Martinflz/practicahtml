@@ -45,48 +45,6 @@ nav{
 a:hover{
     text-decoration: underline;
 }
-h1{
-    border-bottom: 5px solid #72BAA9;
-    border-bottom-left-radius: 5px;
-    text-align: center;
-    margin-top: 2%;
-}
-section{
-    display: flex;
-    flex-direction: column;
-}
-.divSection{
-    display: flex;
-    height: 60vh;
-    width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.divParrafo{
-    display: flex;
-    height: 100%;
-    width: 50%;
-}
-.divIframe{
-    width: 50%;
-    height: 100%;
-}
-.divParrafo p{
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: justify;
-    margin-top: 2%;
-    margin-right: 2%;
-}
-iframe{
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
 footer{
     height: 70px;
     width: 100%;
