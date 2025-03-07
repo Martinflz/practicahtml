@@ -6,7 +6,7 @@
 /*-----------formulario---------*/
     .section-div{
         display: flex;
-        margin: 2% 2% 0 2%;;
+        margin: 2% 2% 0 4%;;
     }
     .divH1{
         border: none;
@@ -14,13 +14,13 @@
     h2{
         font-size: 30px;
         font-family: serif;
-        color: #72BAA9;
-        width: 25%;
+        color: white;
+        width: 38%;
     }
     .divH1 p{
         width: 30%;
-        color: #D5E7B5;
-        font-size: 25px;
+        color: white;
+        font-size: 20px;
     }
     .divContenedor{
         display: flex;
@@ -35,80 +35,87 @@
         flex-direction: column;
         font-size: 25px;
         font-family: serif;
-        border-color: #72BAA9;
+        border-color: #2c353e;
         padding-left: 2%;
         padding-top: 1%;
+    }
+    form {
+        height: 100%;
+        align-content: center;
     }
     fieldset{ 
         display: flex;
         flex-direction: column;
         height: 95%;
-        border-color: #72BAA9;
+        border-color: #2c353e;
         border-radius: 5px;
     }
-    fieldset label{
-        margin-left: 10px;
-        color: #72BAA9;
+    ::placeholder{
+        color: white;
     }
     input[type=text]{
-        background-color: #474E93;
-        color: #D5E7B5;
-        width: 80%;
+        background-color: #2c353e;
+        color: white;
+        width: 90%;
         padding: 12px 20px;
-        margin: 8px 0 0 10px;
+        margin: 30px 0 0 25px;
         border: none;
-        border-bottom: 3px solid #72BAA9;
-        border-bottom-right-radius:5px ;
-        border-bottom-left-radius: 5px;
-    }
-    input[type=number]{
-        background-color: #474E93;
-        color: #D5E7B5;
-        width: 80%;
-        padding: 12px 20px;
-        margin: 8px 0 0 10px;
-        border: none;
-        border-bottom: 3px solid #72BAA9;
+        border-bottom: 3px solid #d86b00;
         border-bottom-right-radius:5px ;
         border-bottom-left-radius: 5px;
     }
     input[type=mail]{
-        background-color: #474E93;
-        color: #D5E7B5;
-        width: 80%;
+        background-color: #2c353e;
+        color: white;
+        width: 90%;
         padding: 12px 20px;
-        margin: 8px 0 0 10px;
+        margin: 30px 0 0 25px;
         border: none;
-        border-bottom: 3px solid #72BAA9;
+        border-bottom: 3px solid #d86b00;
+        border-bottom-right-radius:5px ;
+        border-bottom-left-radius: 5px;
+    }
+    input[type=number]{
+        background-color: #2c353e;
+        color: white;
+        width: 90%;
+        padding: 12px 20px;
+        margin: 30px 0 0 25px;
+        border: none;
+        border-bottom: 3px solid #d86b00;
         border-bottom-right-radius:5px ;
         border-bottom-left-radius: 5px;
     }
     .labelMensaje{
-        margin-top: 5px;
+        color: white;
+        margin-top: 30px;
+        margin-left: 30px;
         font-size: 25px;
         font-family: serif;
+        text-align: left;
     }
     textarea{
-        height: 200px;
+        height: 700px;
         width: 90%;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 25px;
         font-family: serif solid;
         font-size: 25px;
-        background-color: #D5E7B5;
+        color: white;
+        background-color: #2c353e;
         border: none;
         border-radius: 5px;
         resize: none;
     }
-    .botonSubmit{
-        background-color: #72BAA9;
+    input[type=submit]{
+        background-color: #2c353e;
+        color: #d86b00;
         width: 90%;
-        margin: 5px 0 5px 10px;
+        margin: 5px 0 5px 25px;
         padding-top: 10px;
         padding-bottom: 10px;
         border: none;
         border-radius: 5px;
-        color: #1e302c;
         font-size: 20px;
         text-align: center;
     }
@@ -119,19 +126,18 @@
         height: 90%;
         width: 100%;
         margin-left: 1%;
+        align-items: center;
     }
     .divLabelMap{
         display: flex;
         font-size: 30px;
-        color: #72BAA9;
-        text-align: center;
+        color: white;
+        text-align: left;
         height: 10%;
-        width: 100%; 
+        margin-top: 5%;
+        padding-bottom: 3%;
     }
-    .divIframe{
-        height: 95%;
-        width: 100%;
-    }
-    .iframe{
-        width: 100%;
+    .mapaIframe{
+        height: 750px;
+        width: 600px;
     }
