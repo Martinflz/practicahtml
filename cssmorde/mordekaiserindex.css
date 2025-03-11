@@ -5,6 +5,7 @@
 }
 body{
     background-color: #a92c10;
+    color: white;
 }
 .indexDiv{
     display: flex;
@@ -27,9 +28,14 @@ header .indexHover a{
     object-fit: contain;
     width: 25%;
 }
+nav{
+    margin-top: 2%;
+    margin-left: 15%;
+    padding-left: 15%;
+} 
 ul li{
     list-style: none;
-    display: inline-block;  
+    display: inline-block;
 }
 header ul li a{
     color: white;
@@ -38,13 +44,76 @@ header ul li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 10px; 
 }
-nav{
-    margin-top: 2%;
-    padding-left: 15%;
-} 
 a:hover{
     text-decoration: underline;
 }
+/*-------section-----------*/
+.sectionIndex{
+    height: 100vh;
+    width: 100%;
+    margin-top: 5%;
+}
+.ofertaContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.cardOferta{
+    display: flex;
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+}
+.cardInfoOferta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardInfoOferta img{
+    height: 350px;
+    width: 180px;
+    object-fit: contain;
+    border-radius: 1%;
+    padding-top: 5%;
+}
+.infoOferta{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.infoOferta h1{
+    text-align: left;
+    font-size: 50px;
+}
+.infoOferta p{
+    margin-top: 20%;
+    text-align: left;
+    font-size: 30px;
+}
+
+button{
+    display: flex;
+    position: relative;
+    left: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color:#2c353e ;
+    border-color: #2c353e solid;
+    color: white;
+    width: 50%;
+    padding: 3%;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
 footer{
     height: 70px;
     width: 100%;
