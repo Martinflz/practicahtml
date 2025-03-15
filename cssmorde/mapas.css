@@ -19,23 +19,46 @@ p{
     border-bottom: 5px solid;
     color: white;
 }
-.contenedorMapas{
+.cardMapaContenedor{
     display: flex;
-    flex-flow: wrap;
-    margin-top: 2%;
-    width: 100%;
+    flex-direction: wrap;
     justify-content: space-evenly;
-    gap: 15px 26px; 
-}
-.mapasCard{
-    display: flex;
-    height: 40%;
-    width: 20%;
-    border: solid 2px;
-    border-color: white;
-   
-}
-.mapasCard img{
+    height: 50%;
     width: 100%;
-    object-fit: cover;
+}
+.cardMapa{
+    display: flex;
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+    border: #2c353e 5px solid;
+    border-radius: 10px;
+}
+.cardMapaContenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardMapa img{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+.cardMapa p{
+    width: 90%;
+    font-size: 25px;
+    text-align: left;
+}
+.buttonH1{
+    border: none;
+}
+button{
+    display: flex;
+    background-color:#2c353e ;
+    border-color: #2c353e solid;
+    color: white ;
+    width: 50%;
+    cursor: pointer;
 }
